@@ -1,0 +1,46 @@
+{
+  "name": "mehr-it/otto-receipts-api-client",
+  "description": "PHP client for Otto receipts API generated using Swagger",
+  "keywords": [
+    "swagger",
+    "php",
+    "sdk",
+    "api",
+    "otto",
+    "receipts"
+  ],
+  "homepage": "https://www.mehr-it.info",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "mehr.IT GmbH",
+      "homepage": "https://www.mehr-it.info"
+    },
+    {
+      "name": "Swagger and contributors",
+      "homepage": "https://github.com/swagger-api/swagger-codegen"
+    }
+  ],
+  "require": {
+    "php": ">=5.5",
+    "ext-curl": "*",
+    "ext-json": "*",
+    "ext-mbstring": "*",
+    "guzzlehttp/guzzle": "^6.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^4.8",
+    "squizlabs/php_codesniffer": "~2.6",
+    "friendsofphp/php-cs-fixer": "~1.12"
+  },
+  "autoload": {
+    "psr-4": {
+      "MehrIt\\OttoReceiptsApiClient\\": "lib/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "MehrItOttoReceiptsApiClientTest\\": "test/"
+    }
+  }
+}
